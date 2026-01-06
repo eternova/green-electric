@@ -624,7 +624,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">联系电话</h4>
-                  <p className="text-gray-600">+86 755-XXXX-XXXX</p>
+                  <p className="text-gray-600">+8618921518881</p>
                 </div>
               </div>
             </div>
