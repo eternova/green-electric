@@ -183,7 +183,7 @@ function StatsSection() {
             <div key={index} className="text-center text-white">
               <div className="text-4xl mb-2">{stat.icon}</div>
               <div className="text-4xl md:text-5xl font-bold mb-2">{stat.number}</div>
-              <div className="text-blue-200">{stat.label}</div>
+              <div className="text-emerald-200">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -418,16 +418,14 @@ function SaudiSection() {
   return (
     <section id="saudi" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="section-title text-3xl md:text-4xl font-bold text-gray-900 mb-4">沙特市场</h2>
+          <p className="text-gray-600 mt-8 max-w-2xl mx-auto">
+            成熟稳定的本地化实施体系
+          </p>
+        </div>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-block px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium mb-6">
-              沙特市场
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              成熟稳定的
-              <br />
-              本地化实施体系
-            </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
               格林电工在沙特市场已建立成熟、稳定的本地化实施体系，
               深度理解沙特业主及相关监管机构的技术要求与审批逻辑。
@@ -596,7 +594,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">公司地址</h4>
-                  <p className="text-gray-600">中国 · 深圳市</p>
+                  <p className="text-gray-600">中国-无锡市</p>
                 </div>
               </div>
             </div>
