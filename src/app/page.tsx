@@ -401,7 +401,7 @@ function SaudiSection() {
     {
       icon: "🏭",
       title: "本地合资工厂",
-      description: "通过沙特本地合资工厂，实现关键产品的本地制造与加工，项目本地化率可达约30%",
+      description: "通过沙特本地合资工厂，实现关键产品的本地制造与加工，IKTIVA沙化比达到30%",
     },
     {
       icon: "📋",
